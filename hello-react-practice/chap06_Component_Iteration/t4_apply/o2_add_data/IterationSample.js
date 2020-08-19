@@ -7,14 +7,13 @@ const IterationSample = () => {
     { id: 3, text: 'Snow'},
     { id: 4, text: 'Wind'},
   ]);
-
   const [inputText, setInputText] = useState('');
   const [nextId, setNextId] = useState(5);
 
   const onChange = e => setInputText(e.target.value);
 
   const onClick = () => {
-    const nextNames = name.concat({
+    const nextNames = name.concat({   // Don't use '.push'
       id: nextId,
       text: inputText
     });
