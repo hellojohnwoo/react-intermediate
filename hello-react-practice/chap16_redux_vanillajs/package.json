@@ -1,0 +1,10 @@
+{
+  "name": "chap16_redux_vanillajs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "redux": "^4.0.5"
+  }
+}
